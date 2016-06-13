@@ -1,0 +1,34 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  background-color: #ededed;
+}
+p {
+  color: #2F4F4F;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/* Psuedo Classes */
+a {
+  &:hover {
+    color: #480000;
+  }
+  &:visited {
+    color: #000;
+    background-color: #fff;
+  }
+}
+hr {
+  width: 92%;
+}

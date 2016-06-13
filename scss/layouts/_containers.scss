@@ -1,0 +1,75 @@
+/*** Profile ***/
+.name {
+  align-self: center;
+  text-decoration: none;
+  color: #000;
+  margin-top: .5em;
+  text-align: center;
+  background-color: #ededed;
+}
+.rectangle {
+  background: #A3A3A3;
+  padding-top: 1em;
+  padding-bottom: .9em;
+  width: 90%;
+  display: block;
+  z-index: 2;
+  margin: 2em auto;
+  text-align: center;
+}
+.profile-image {
+  max-width: 150px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  z-index: 5;
+}
+.intro {
+  padding-top: .5em;
+  padding-bottom: 3em;
+  margin: 0 auto;
+  color: #2F4F4F;
+}
+/*Layout Containers*/
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color: #ededed;
+}
+/*** Portfolio ***/
+.portfolio {
+  h3 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  &-image {
+    max-width: 90%
+  }
+  & {
+    background: #fff;
+    padding-bottom: 1em;
+  }
+}
+
+
+/*** Contact ***/
+#contact {
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  &-info li {
+    padding: .5em;
+  }
+  &-info li a:hover,
+  &-info li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+  }
+}

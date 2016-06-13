@@ -1,0 +1,23 @@
+/*** Footer ***/
+#footer {
+  &-left {
+    float: left;
+    padding-left: .75em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+  &-right {
+    float: right;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+  &-right li a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+.footer-nav li {
+  display: none;
+  visibility: hidden;
+}
