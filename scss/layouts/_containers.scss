@@ -2,13 +2,13 @@
 .name {
   align-self: center;
   text-decoration: none;
-  color: #000;
+  color: $color-font;
   margin-top: .5em;
   text-align: center;
-  background-color: #ededed;
+  background-color: $color-prim;
 }
 .rectangle {
-  background: #A3A3A3;
+  background: $color-rec;
   padding-top: 1em;
   padding-bottom: .9em;
   width: 90%;
@@ -28,7 +28,7 @@
   padding-top: .5em;
   padding-bottom: 3em;
   margin: 0 auto;
-  color: #2F4F4F;
+  color: $color-font-intro;
 }
 /*Layout Containers*/
 
@@ -36,7 +36,7 @@
   max-width: 100%;
   margin: 0 auto;
   padding: 0 5%;
-  background-color: #ededed;
+  background-color: $color-prim;
 }
 /*** Portfolio ***/
 .portfolio {
@@ -44,7 +44,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  background: #fff;
+  background: $color-sec;
   padding-bottom: 1em;
 }
   .portfolio-image {
@@ -60,7 +60,7 @@
   padding-top: 1em;
   a {
     text-decoration: none;
-    color: #000;
+    color: $color-font;
   }
 }
   .contact-info li {
@@ -68,8 +68,7 @@
   a {
   &:hover,
   &:focus {
-    color: #1c1c1c;
-    background: #ccc;
+    color: $color-nav-hov;
     }
   }
 }

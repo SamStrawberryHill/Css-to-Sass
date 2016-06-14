@@ -6,18 +6,17 @@
     max-width: 100%;
     padding: .5em;
     margin-bottom: .3em;
-    color: #000;
-    background-color: #fff;
+    color: $color-font;
+    background-color: $color-sec;
     font-size: 1.125em;
     font-weight: 300;
   }
   li a {
     &:hover,
     &:focus {
-      color: #1c1c1c;
-      background: #ccc;
+      color: $color-nav-hov;
     }
-  } 
+  }
 }
 .bold {
   font-weight: bolder;

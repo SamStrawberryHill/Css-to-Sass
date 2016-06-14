@@ -10,23 +10,24 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #000;
-  background-color: #ededed;
+  font-family: $stack-roboto;
+  color: $color-font;
+  background-color: $color-prim;
 }
 p {
-  color: #2F4F4F;
+  color: $color-font-intro;
+  font-family: $stack-source;
   padding-left: 1em;
   padding-right: 1em;
 }
 /* Psuedo Classes */
 a {
   &:hover {
-    color: #480000;
+    color: $color-link-hov;
   }
   &:visited {
-    color: #000;
-    background-color: #fff;
+    color: $color-font;
+    background-color: $color-sec;
   }
 }
 hr {
