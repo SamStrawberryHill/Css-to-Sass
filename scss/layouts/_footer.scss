@@ -1,18 +1,16 @@
 /*** Footer ***/
-#footer {
-  &-left {
+  #footer-left {
     float: left;
     padding-left: .75em;
     padding-top: 1em;
     padding-bottom: 3em;
   }
-  &-right {
+  #footer-right {
     float: right;
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 3em;
-  }
-  &-right li a {
+  li a {
     text-decoration: none;
     color: #000;
   }

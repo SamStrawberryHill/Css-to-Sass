@@ -44,14 +44,12 @@
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  &-image {
+  background: #fff;
+  padding-bottom: 1em;
+}
+  .portfolio-image {
     max-width: 90%
   }
-  & {
-    background: #fff;
-    padding-bottom: 1em;
-  }
-}
 
 
 /*** Contact ***/
@@ -64,12 +62,14 @@
     text-decoration: none;
     color: #000;
   }
-  &-info li {
+}
+  .contact-info li {
     padding: .5em;
-  }
-  &-info li a:hover,
-  &-info li a:focus {
+  a {
+  &:hover,
+  &:focus {
     color: #1c1c1c;
     background: #ccc;
+    }
   }
 }
