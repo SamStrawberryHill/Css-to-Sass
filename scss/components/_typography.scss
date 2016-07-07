@@ -1,4 +1,8 @@
 .main-nav {
+  @media #{$brk-wide}{
+    float: right;
+    padding-right: 3em;
+  }
   a {
     display: block;
     text-decoration: none;
@@ -8,16 +12,32 @@
     margin-bottom: .3em;
     color: $color-font;
     background-color: $color-sec;
-    font-size: 1.125em;
+    font-size: $font-size-nav;
     font-weight: 300;
+    @media #{$brk-narrow , $brk-mid} {
+      background: none;
+      text-align: center;
+      display: inline-block;
+      font-weight: bolder;
+    }
+  }
+  li {
+    @media #{$brk-wide}{
+      display: inline-block;
+    }
   }
   li a {
     &:hover,
     &:focus {
       color: $color-nav-hov;
+      @media #{$brk-narrow , $brk-mid} {
+        text-align: center;
+        display: inline-block;
+        font-weight: bolder;
+        font-size: 20px;
+      }
     }
   }
-}
 .bold {
   font-weight: bolder;
 }

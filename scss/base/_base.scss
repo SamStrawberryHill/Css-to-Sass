@@ -17,8 +17,21 @@ body {
 p {
   color: $color-font-intro;
   font-family: $stack-source;
+  font-size: $font-size-p;
   padding-left: 1em;
   padding-right: 1em;
+}
+h1 {
+  font-size: $font-size-h1;
+}
+h2 {
+  font-size: $font-size-h2;
+}
+h3 {
+  font-size: $font-size-h3;
+}
+a {
+  font-size: $font-size-a;
 }
 /* Psuedo Classes */
 a {
@@ -32,4 +45,17 @@ a {
 }
 hr {
   width: 92%;
+  @media #{$brk-narrow , $brk-mid}{
+    width: 90%;
+  }
+  @media #{$brk-wide}{
+    width: 85%;
+  }
+}
+.group::after {
+  @media #{$brk-narrow , $brk-mid , $brk-wide}{
+    content: " ";
+    display: table;
+    clear: both;
+  }
 }

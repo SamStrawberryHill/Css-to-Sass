@@ -23,4 +23,17 @@ $stack-roboto : 'Roboto', $stack-sans-serif;
 $stack-source : 'Source Sans Pro', $stack-sans-serif;
 
 /* Font Sizes */
- 
+
+$font-size-h1 : 2em;
+$font-size-nav : 1.125em;
+$font-size-intro : 23px;
+$font-size-h3 : 1.17em;
+$font-size-h2 : 1.5em;
+$font-size-p : 1em;
+$font-size-a : 1em;
+
+/* Media Query Breakpoints */
+
+$brk-wide : '(min-width: 1024px)';
+$brk-mid : '(min-width: 768px)';
+$brk-narrow : '(min-width: 700px)';

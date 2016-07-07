@@ -295,7 +295,7 @@ hr {
   width: 90%;
 }
 .first-row li,
-.second-row li{
+.second-row li {
   max-width: 33%;
   float: left;
   padding: 1em;
