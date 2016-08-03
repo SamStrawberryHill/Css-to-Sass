@@ -3,10 +3,11 @@
     float: right;
     padding-right: 3em;
   }
+}
   a {
     display: block;
     text-decoration: none;
-    text-align: center;
+    @extend %centered;
     max-width: 100%;
     padding: .5em;
     margin-bottom: .3em;

@@ -4,7 +4,7 @@
   text-decoration: none;
   color: $color-font;
   margin-top: .5em;
-  text-align: center;
+  @extend %centered;
   background-color: $color-prim;
   @media #{$brk-wide}{
     float: left;
@@ -20,7 +20,7 @@
   display: block;
   z-index: 2;
   margin: 2em auto;
-  text-align: center;
+  @extend %centered;
     @media #{$brk-narrow , $brk-mid}{
       float: right;
       display: inline-block;
