@@ -4,16 +4,16 @@
     padding-left: .75em;
     padding-top: 1em;
     padding-bottom: 3em;
-    @media #{$brk-wide}{
+    @include desktop {
       padding-left: 1em;
     }
     li {
-      @media #{$brk-narrow , $brk-mid}{
+      @include mobile {
         padding-left: 1.25em;
         margin: 0 auto;
         font-weight: bolder;
       }
-      @media #{$brk-wide}{
+      @include desktop {
         padding-left: 3.5em;
         margin: 0 auto;
         font-weight: bolder;
@@ -25,10 +25,10 @@
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 3em;
-    @media #{$brk-narrow , $brk-mid}{
+    @include mobile {
       padding-right: 2.5em;
     }
-    @media #{$brk-wide}{
+    @include desktop {
       padding-right: 5em;
     }
   li a {
@@ -39,7 +39,7 @@
 .footer-nav li {
   display: none;
   visibility: hidden;
-  @media #{$brk-narrow , $brk-mid}{
+  @include mobile {
     display: inline-block;
     padding-left: 1em;
     margin: 0 auto;
@@ -47,7 +47,7 @@
     color: #000;
     visibility: visible;
   }
-  @media #{$brk-wide}{
+  @include desktop {
     display: inline-block;
     padding-left: 1em;
     margin: 0 auto;
@@ -55,7 +55,7 @@
   }
 }
 #back-to-top {
-  @media #{$brk-narrow , $brk-mid}{
+  @include mobile {
   display: none;
   visibility: hidden;
   }

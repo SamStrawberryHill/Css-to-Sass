@@ -1,5 +1,5 @@
 .main-nav {
-  @media #{$brk-wide}{
+  @include desktop {
     float: right;
     padding-right: 3em;
   }
@@ -15,7 +15,7 @@
     background-color: $color-sec;
     font-size: $font-size-nav;
     font-weight: 300;
-    @media #{$brk-narrow , $brk-mid} {
+    @include mobile {
       background: none;
       text-align: center;
       display: inline-block;
@@ -23,7 +23,7 @@
     }
   }
   li {
-    @media #{$brk-wide}{
+    @include desktop {
       display: inline-block;
     }
   }
@@ -31,7 +31,7 @@
     &:hover,
     &:focus {
       color: $color-nav-hov;
-      @media #{$brk-narrow , $brk-mid} {
+      @include mobile {
         text-align: center;
         display: inline-block;
         font-weight: bolder;
